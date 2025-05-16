@@ -70,7 +70,7 @@ const AppPieChart = () => {
             dataKey="mobile"
             innerRadius={70}
             outerRadius={90}
-            label={({ name, percent, index }) =>
+            label={({ percent, index }) =>
               `${mobileData[index].month}: ${(percent * 100).toFixed(0)}%`
             }
             labelLine={false}
